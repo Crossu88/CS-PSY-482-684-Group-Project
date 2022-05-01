@@ -202,6 +202,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -226,6 +227,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5562961089559932223
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,6 +274,7 @@ GameObject:
   - component: {fileID: 1456559220800915679}
   - component: {fileID: 1221942395664688271}
   - component: {fileID: 3391780707539673779}
+  - component: {fileID: 7001400058563559483}
   m_Layer: 0
   m_Name: SledgeHammer
   m_TagString: Untagged
@@ -321,6 +324,7 @@ MonoBehaviour:
   PoseImmediately: 0
   ParentHandModel: 0
   BreakDistance: 1
+  BreakDistanceSource: 0
   RemainsKinematic: 1
   Stationary: 0
   ReleasedAngularConversionFactor: 0
@@ -490,8 +494,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SocketOrientation: {fileID: 1280102478591520053}
-  SocketScale: 1
   CounterScale: {x: 1, y: 1, z: 1}
+  UseRendererBounds: 1
+  ScaleSize: 0
+  SocketScale: 1
   ScaleOverride: {fileID: 0}
   SocketedClip: {fileID: 0}
   UnsocketedClip: {fileID: 0}
@@ -514,6 +520,20 @@ MonoBehaviour:
   Data: {fileID: 0}
   Force: 0
   Grabbable: {fileID: 0}
+--- !u!114 &7001400058563559483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6074708270966707356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3203a04c7ef891c4ca38ed393c368f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priority: 0
+  _material: {fileID: 11400000, guid: b8cd6d963e1388e4c9b898bd9a1ab95d, type: 2}
 --- !u!1 &6823011935313575095
 GameObject:
   m_ObjectHideFlags: 0

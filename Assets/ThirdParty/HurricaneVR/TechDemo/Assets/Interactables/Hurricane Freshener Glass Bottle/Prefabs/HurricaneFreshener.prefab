@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 5596430768570030567}
   - component: {fileID: 1468026948974480799}
   - component: {fileID: 2713947739643972780}
+  - component: {fileID: 3715741675926143188}
   m_Layer: 0
   m_Name: HurricaneFreshener
   m_TagString: Untagged
@@ -65,6 +66,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -89,6 +91,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!54 &1771446779070378870
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -143,6 +146,7 @@ MonoBehaviour:
   PoseImmediately: 0
   ParentHandModel: 0
   BreakDistance: 1
+  BreakDistanceSource: 0
   RemainsKinematic: 1
   Stationary: 0
   ReleasedAngularConversionFactor: 1
@@ -284,6 +288,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1665790615552952479}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Destroy
         m_Mode: 1
         m_Arguments:
@@ -324,8 +329,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SocketOrientation: {fileID: 5804629216139462869}
-  SocketScale: 1
   CounterScale: {x: 1, y: 1, z: 1}
+  UseRendererBounds: 1
+  ScaleSize: 0
+  SocketScale: 1
   ScaleOverride: {fileID: 0}
   SocketedClip: {fileID: 0}
   UnsocketedClip: {fileID: 0}
@@ -348,6 +355,20 @@ MonoBehaviour:
   Data: {fileID: 0}
   Force: 0
   Grabbable: {fileID: 0}
+--- !u!114 &3715741675926143188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464822872742855183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3203a04c7ef891c4ca38ed393c368f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _priority: 0
+  _material: {fileID: 11400000, guid: d57cb808e4860654dbbc52ba8efa1c43, type: 2}
 --- !u!1 &8977962215509934435
 GameObject:
   m_ObjectHideFlags: 0

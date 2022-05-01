@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecd4675b635efd41bcbcb0a0eeb3b6e, type: 3}
   m_Name: Glass
   m_EditorClassIdentifier: 
-  _tagLibrary: {fileID: 11400000, guid: c11143fc50173ad4397908d343cec9ec, type: 2}
+  _tagLibrary: {fileID: 11400000, guid: b0aedf6d05eb4044db762122e0ddcfea, type: 2}
   _materialTagsMask:
     _value: 4
     _tagLibrary: {fileID: 0}
