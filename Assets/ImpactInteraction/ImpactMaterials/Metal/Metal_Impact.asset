@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Metal_Impact
   m_EditorClassIdentifier: 
   _velocityRange:
-    Min: 1
+    Min: 0
     Max: 10
   _randomPitchRange:
     Min: 0.9
@@ -48,7 +48,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   _collisionNormalInfluence: 1
   _slideVelocityPitchMultiplier: 0.025
-  _audioSourceTemplate: {fileID: 1469069950720070024, guid: c0dba6c6d768ffc488e7e0dc686965c6, type: 3}
+  _audioSourceTemplate: {fileID: 1469069950720070024, guid: c0dba6c6d768ffc488e7e0dc686965c6,
+    type: 3}
   _collisionAudioSelectionMode: 1
   _collisionAudioClips:
   - {fileID: 8300000, guid: 15cc6c14c32d2634a88e0fe59d25e439, type: 3}

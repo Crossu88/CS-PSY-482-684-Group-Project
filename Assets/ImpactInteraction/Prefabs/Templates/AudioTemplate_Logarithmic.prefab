@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5701616131840085990}
   - component: {fileID: 4914536190997426005}
   - component: {fileID: 5976289932897395072}
-  - component: {fileID: -1655076506764769119}
   m_Layer: 0
   m_Name: AudioTemplate_Logarithmic
   m_TagString: Untagged
@@ -144,18 +143,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-1655076506764769119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3190767397646970812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb656b0e34187a94380d8e81ae9e8358, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _audioSource: {fileID: 5976289932897395072}
-  _poolSize: 20
-  _poolFallbackMode: 1

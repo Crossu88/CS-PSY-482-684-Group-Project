@@ -275,8 +275,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3316256598011101964}
-  - component: {fileID: 845144951205833639}
-  - component: {fileID: 5406116572000365037}
   m_Layer: 0
   m_Name: CanvasParent
   m_TagString: Untagged
@@ -299,38 +297,6 @@ Transform:
   m_Father: {fileID: 74608332195321405}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &845144951205833639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570447557775246654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!114 &5406116572000365037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2570447557775246654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd4d8cf91bea2654aae40de6c5eed10c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxDistance: 5
-  PressButton: 1
-  UICanvases:
-  - {fileID: 3549234936076988693}
-  AngleDragThreshold: 1
 --- !u!1 &7561719198408880572
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,7 +632,6 @@ GameObject:
   - component: {fileID: 1155342641402600492}
   - component: {fileID: 3549234936076988693}
   - component: {fileID: 8199426774117571996}
-  - component: {fileID: 6031262711968126145}
   - component: {fileID: 7293774031213389776}
   - component: {fileID: 1387272942161921681}
   m_Layer: 0
@@ -741,23 +706,6 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 1
---- !u!114 &6031262711968126145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9192695130193196669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 3146551
 --- !u!222 &7293774031213389776
 CanvasRenderer:
   m_ObjectHideFlags: 0
