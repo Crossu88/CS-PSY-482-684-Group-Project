@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cecd4675b635efd41bcbcb0a0eeb3b6e, type: 3}
+  m_Name: Cloth
+  m_EditorClassIdentifier: 
+  _tagLibrary: {fileID: 11400000, guid: c11143fc50173ad4397908d343cec9ec, type: 2}
+  _materialTagsMask:
+    _value: 2
+    _tagLibrary: {fileID: 0}
+  _interactionSets:
+  - _name: Impact
+    _includeTagsFilter:
+      TagMask:
+        _value: 7
+        _tagLibrary: {fileID: 0}
+      ExactMatch: 0
+    _excludeTagsFilter:
+      TagMask:
+        _value: 0
+        _tagLibrary: {fileID: 0}
+      ExactMatch: 0
+    _interactions:
+    - {fileID: 11400000, guid: c1a35456735b51646a00ed5f57de1d38, type: 2}
+  - _name: Footstep
+    _includeTagsFilter:
+      TagMask:
+        _value: 8
+        _tagLibrary: {fileID: 0}
+      ExactMatch: 0
+    _excludeTagsFilter:
+      TagMask:
+        _value: 0
+        _tagLibrary: {fileID: 0}
+      ExactMatch: 0
+    _interactions:
+    - {fileID: 11400000, guid: 13dadb848a9c77945a9bb6b01721ae4e, type: 2}
+  _fallbackTagMask:
+    _value: 0
+    _tagLibrary: {fileID: 0}

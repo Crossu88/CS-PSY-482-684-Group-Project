@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5248e80a89c7fa84280bb5bfc63e8fd0, type: 3}
+  m_Name: Metal_Footstep
+  m_EditorClassIdentifier: 
+  _velocityRange:
+    Min: 0
+    Max: 1
+  _randomPitchRange:
+    Min: 0.9
+    Max: 1.1
+  _randomVolumeRange:
+    Min: 0.9
+    Max: 1.1
+  _scaleVolumeWithVelocity: 1
+  _velocityVolumeScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _collisionNormalInfluence: 1
+  _slideVelocityPitchMultiplier: 0.025
+  _audioSourceTemplate: {fileID: 1469069950720070024, guid: d66c549cda167fb4582027d84dce778b, type: 3}
+  _collisionAudioSelectionMode: 1
+  _collisionAudioClips:
+  - {fileID: 8300000, guid: 477ec10ae18a49c4bb91efc438655aa4, type: 3}
+  - {fileID: 8300000, guid: 253f54d2d519b5e4b93d4e90c236ec22, type: 3}
+  - {fileID: 8300000, guid: dfa6406ea3600e944b04c06262e301b4, type: 3}
+  - {fileID: 8300000, guid: 212583698c839254aa1dcb4d1f89535c, type: 3}
+  - {fileID: 8300000, guid: 5b42548cd9afb41499be1df1fc647406, type: 3}
+  - {fileID: 8300000, guid: ea8faa3763417ad4585c43d83f1c577e, type: 3}
+  - {fileID: 8300000, guid: 1be8af9182f68e64d9d0ba21d201608c, type: 3}
+  - {fileID: 8300000, guid: 4d669a8f3aa24454d93089e59bfcde20, type: 3}
+  - {fileID: 8300000, guid: 0a228235a5d80de49995289552013064, type: 3}
+  - {fileID: 8300000, guid: 604531579fc580049b05c6fa9a0b094f, type: 3}
+  _slideAudioClip: {fileID: 0}
+  _rollAudioClip: {fileID: 0}
